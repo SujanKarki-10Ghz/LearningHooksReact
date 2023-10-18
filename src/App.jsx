@@ -1,6 +1,7 @@
 import React from 'react'
 import GlobalEvent from './Hooks/UseEffect/GlobalEvent'
 import Modal from './Hooks/UseEffect/Modal'
+import FetchData from './Hooks/UseEffect/FetchData'
 // import ExternalSystem from './Hooks/UseEffect/ExternalSystem'
 // import Counter from './Hooks/UseState/Counter'
 // import TextField from './Hooks/UseState/TextField'
@@ -27,7 +28,8 @@ const App = () => {
     </div> */}
     {/* <ExternalSystem /> */}
     {/* <GlobalEvent/> */}
-    <Modal />
+    {/* <Modal /> */}
+    <FetchData />
     </>
   )
 }
