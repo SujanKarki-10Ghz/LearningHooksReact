@@ -2,6 +2,9 @@ import React from 'react'
 import GlobalEvent from './Hooks/UseEffect/GlobalEvent'
 import Modal from './Hooks/UseEffect/Modal'
 import FetchData from './Hooks/UseEffect/FetchData'
+import ClickCounter from './Hooks/UseRef/ClickCounter'
+import StopWatch from './Hooks/UseRef/StopWatch'
+import RenderCount from './Hooks/UseRef/RenderCount'
 // import ExternalSystem from './Hooks/UseEffect/ExternalSystem'
 // import Counter from './Hooks/UseState/Counter'
 // import TextField from './Hooks/UseState/TextField'
@@ -29,7 +32,12 @@ const App = () => {
     {/* <ExternalSystem /> */}
     {/* <GlobalEvent/> */}
     {/* <Modal /> */}
-    <FetchData />
+    {/* <FetchData /> */}
+    {/* <ClickCounter /> */}
+    <StopWatch/>
+    <div>
+    <RenderCount />
+    </div>
     </>
   )
 }
