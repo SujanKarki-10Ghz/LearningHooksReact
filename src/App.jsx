@@ -5,6 +5,7 @@ import FetchData from './Hooks/UseEffect/FetchData'
 import ClickCounter from './Hooks/UseRef/ClickCounter'
 import StopWatch from './Hooks/UseRef/StopWatch'
 import RenderCount from './Hooks/UseRef/RenderCount'
+import ThemeChange from './Hooks/UseContext/ThemeChange'
 // import ExternalSystem from './Hooks/UseEffect/ExternalSystem'
 // import Counter from './Hooks/UseState/Counter'
 // import TextField from './Hooks/UseState/TextField'
@@ -34,10 +35,11 @@ const App = () => {
     {/* <Modal /> */}
     {/* <FetchData /> */}
     {/* <ClickCounter /> */}
-    <StopWatch/>
+    {/* <StopWatch/>
     <div>
     <RenderCount />
-    </div>
+    </div> */}
+    <ThemeChange/>
     </>
   )
 }
