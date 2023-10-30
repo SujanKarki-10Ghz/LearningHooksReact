@@ -6,6 +6,12 @@ const CurrentUserContext = createContext(null);
 export default function MyApp() {
   const [theme, setTheme] = useState('light');
   const [currentUser, setCurrentUser] = useState(null);
+  const themeStyles = {
+    backgroundColor: theme? "#333" : "#CCC",
+    color: theme? "#CCC": "#333",
+    padding:'2rem',
+    margin:'2rem',
+}
   return (
     <ThemeContext.Provider value={theme}>
       <CurrentUserContext.Provider
@@ -55,7 +61,7 @@ function LoginForm() {
   const [lastName, setLastName] = useState('');
   const canLogin = firstName !== '' && lastName !== '';
   return (
-    <>
+    <div>
       <label>
         First name{': '}
         <input
@@ -83,7 +89,7 @@ function LoginForm() {
         Log in
       </Button>
       {!canLogin && <i>Fill in both fields.</i>}
-    </>
+    </div>
   );
 }
 

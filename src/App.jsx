@@ -8,13 +8,15 @@ import React from 'react'
 // import ThemeChange from './Hooks/UseContext/ThemeChange'
 // import LoginPanel from './Hooks/UseContext/LoginPanel'
 // import MutipleContext from './Hooks/UseContext/MultipleContext'
-// import MultipleContext from './Hooks/UseContext/MultipleContext'
+import MultipleContext from './Hooks/UseContext/MultipleContext'
 // import ExternalSystem from './Hooks/UseEffect/ExternalSystem'
 // import Counter from './Hooks/UseState/Counter'
 // import TextField from './Hooks/UseState/TextField'
 // import CheckBox from './Hooks/UseState/CheckBox'
 // import Form from './Hooks/UseState/Form'
 // import List from './Hooks/UseState/List'
+
+// import TaskApp from './Hooks/UseContext/Task/TaskApp'
 const App = () => {
   return (
     <>
@@ -44,7 +46,8 @@ const App = () => {
     </div> */}
     {/* <ThemeChange/> */}
     {/* <LoginPanel/> */}
-    {/* <MultipleContext/> */}
+    <MultipleContext/>
+    {/* <TaskApp /> */}
     </>
   )
 }
