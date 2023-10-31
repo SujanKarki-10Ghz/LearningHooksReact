@@ -1,4 +1,6 @@
 import React from 'react'
+import CounterApp from './Hooks/UseReducer/CounterApp'
+import TodoApp from './Hooks/UseReducer/TodoApp'
 // import GlobalEvent from './Hooks/UseEffect/GlobalEvent'
 // import Modal from './Hooks/UseEffect/Modal'
 // import FetchData from './Hooks/UseEffect/FetchData'
@@ -8,7 +10,7 @@ import React from 'react'
 // import ThemeChange from './Hooks/UseContext/ThemeChange'
 // import LoginPanel from './Hooks/UseContext/LoginPanel'
 // import MutipleContext from './Hooks/UseContext/MultipleContext'
-import MultipleContext from './Hooks/UseContext/MultipleContext'
+// import MultipleContext from './Hooks/UseContext/MultipleContext'
 // import ExternalSystem from './Hooks/UseEffect/ExternalSystem'
 // import Counter from './Hooks/UseState/Counter'
 // import TextField from './Hooks/UseState/TextField'
@@ -46,8 +48,10 @@ const App = () => {
     </div> */}
     {/* <ThemeChange/> */}
     {/* <LoginPanel/> */}
-    <MultipleContext/>
+    {/* <MultipleContext/> */}
     {/* <TaskApp /> */}
+    {/* <CounterApp/> */}
+    <TodoApp/>
     </>
   )
 }
